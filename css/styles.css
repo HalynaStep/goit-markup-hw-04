@@ -23,6 +23,7 @@ h6 {
 }
 
 ul {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -42,10 +43,6 @@ body {
   font-family: Roboto, sans-serif;
   color: #757575;
   background-color: #ffffff;
-}
-
-.list {
-  list-style: none;
 }
 
 .link {
@@ -84,7 +81,6 @@ body {
 .header-menu {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 .header-nav {
@@ -140,6 +136,7 @@ body {
 /*------------Hero styles------------------*/
 
 .hero {
+  padding: 200px 0;
   background-color: var(--accent-section-background-color);
   text-align: center;
 }
@@ -225,7 +222,7 @@ body {
 /*------------Services------------------*/
 
 .services {
-  padding-bottom: 94px;
+  padding-top: 0px;
 }
 
 .services-list {
